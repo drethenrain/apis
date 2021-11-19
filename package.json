@@ -1,0 +1,25 @@
+{
+  "name": "apis",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "https://github.com/drethenrain/apis.git",
+  "author": "drethenrain <drethenrain@hotmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint ./",
+    "lint:fix": "eslint ./ --fix",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "got": "^11.8.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.2.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-prettier": "^4.0.0",
+    "husky": "^7.0.4",
+    "prettier": "^2.4.1"
+  }
+}
