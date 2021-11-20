@@ -1,1 +1,1 @@
-module.exports = {};
+module.exports.apis = require('./src/apis');
