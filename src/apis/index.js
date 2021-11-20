@@ -1,3 +1,4 @@
 module.exports = {
-  OpenWeather: require('./OpenWeather')
+  OpenWeather: require('./OpenWeather'),
+  Github: require('./Github')
 };
